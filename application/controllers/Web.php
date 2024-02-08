@@ -24,22 +24,22 @@ class Web extends CI_Controller {
 
 	public function faculties($value='')
 	{
-		// code...
+		$this->load->view('faculties');
 	}
 
 	public function industryExposure($value='')
 	{
-		// code...
+		$this->load->view('industry-exposure');
 	}
 
 	public function gallery($value='')
 	{
-		// code...
+		$this->load->view('gallery');
 	}
 
 	public function contact($value='')
 	{
-		// code...
+		$this->load->view('contact');
 	}
 
 }
