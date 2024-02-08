@@ -19,7 +19,7 @@ class Web extends CI_Controller {
 
 	public function academics($value='')
 	{
-		// code...
+		$this->load->view('academics');
 	}
 
 	public function faculties($value='')
