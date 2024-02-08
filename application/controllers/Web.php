@@ -9,7 +9,7 @@ class Web extends CI_Controller {
 
 	public function index($value='')
 	{
-		
+		$this->load->view('index');
 	}
 
 	public function about($value='')
