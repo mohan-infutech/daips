@@ -14,7 +14,7 @@ class Web extends CI_Controller {
 
 	public function about($value='')
 	{
-		// code...
+		$this->load->view('about');
 	}
 
 	public function academics($value='')
