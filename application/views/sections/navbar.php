@@ -38,7 +38,6 @@
             <a href="faculties" class="nav-item nav-link">faculties</a>
             <a href="industry-exposure" class="nav-item nav-link">Industry Exposure</a>
             <a href="contact.html" class="nav-item nav-link">Gallery</a>
-            <a href="contact-us" class="nav-item nav-link">Contact</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">NAAC</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
@@ -48,6 +47,7 @@
                     <a href="#" class="dropdown-item">NAAC VISIT REPORT</a>
                 </div>
             </div>
+            <a href="contact-us" class="nav-item nav-link">Contact</a>
         </div>
         <!-- <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Book Your Spot<i class="fa fa-arrow-right ms-3"></i></a> -->
     </div>
