@@ -9,37 +9,37 @@ class Web extends CI_Controller {
 
 	public function index($value='')
 	{
-		
+		$this->load->view('index');
 	}
 
 	public function about($value='')
 	{
-		// code...
+		$this->load->view('about');
 	}
 
 	public function academics($value='')
 	{
-		// code...
+		$this->load->view('academics');
 	}
 
 	public function faculties($value='')
 	{
-		// code...
+		$this->load->view('faculties');
 	}
 
 	public function industryExposure($value='')
 	{
-		// code...
+		$this->load->view('industry-exposure');
 	}
 
 	public function gallery($value='')
 	{
-		// code...
+		$this->load->view('gallery');
 	}
 
 	public function contact($value='')
 	{
-		// code...
+		$this->load->view('contact');
 	}
 
 }

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-defined('ASSETS') OR define('DIST', 'http://localhost/daips/assets/');
+defined('ASSETS') OR define('ASSETS', 'http://localhost/daips/assets/');
 defined('PLUGINS') OR define('PLUGINS', 'http://localhost/daips/assets/plugins/');
 defined('APP_NAME') OR define('APP_NAME', 'DAIPS');
 

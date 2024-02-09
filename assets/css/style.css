@@ -98,6 +98,8 @@
     outline: none;
 }
 
+
+
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
@@ -516,4 +518,18 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+
+/*Custom CSS*/
+
+.dropdown-menu .arrow-top {
+    position: absolute;
+}
+
+.dropdown-menu .arrow-top:before {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px; 
 }
