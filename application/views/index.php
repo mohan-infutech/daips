@@ -19,24 +19,26 @@
         <div class="container-fluid header bg-primary p-0 mb-5">
             <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
                 <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+
                     <h1 class="display-4 text-white mb-5">Building Pharmaceutical leaders of tomorrow.</h1>
+                    <p class="text-white mb-5">Delivering excellence in Pharmaceutical studies since 90's. Proudly contributing to the 30 year legacy of the Ambedkar Group.</p>
                     <div class="row g-4">
                         <div class="col-sm-4">
                             <div class="border-start border-light ps-4">
-                                <h2 class="text-white mb-1" data-toggle="counter-up">123</h2>
-                                <p class="text-light mb-0">Expert Doctors</p>
+                                <h2 class="text-white mb-1" data-toggle="counter-up">30</h2>
+                                <p class="text-light mb-0">Years of Experience</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="border-start border-light ps-4">
                                 <h2 class="text-white mb-1" data-toggle="counter-up">1234</h2>
-                                <p class="text-light mb-0">Medical Stuff</p>
+                                <p class="text-light mb-0">Students Passed</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="border-start border-light ps-4">
                                 <h2 class="text-white mb-1" data-toggle="counter-up">12345</h2>
-                                <p class="text-light mb-0">Total Patients</p>
+                                <p class="text-light mb-0">Life Saved</p>
                             </div>
                         </div>
                     </div>
@@ -67,6 +69,65 @@
         </div>
         <!-- Header End -->
 
+        <!-- Welcome Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="d-inline-block border rounded-pill py-1 px-4">Welcome</p>
+                        <h1 class="mb-4">Who We Are</h1>
+                        <p class="mb-4">Welcome to Dr. Ambedkar Institute of Pharmaceutical Sciences, a distinguished institution committed to shaping the future of pharmaceutical education and research. Established with a vision to empower aspiring pharmacists with knowledge, skills, and ethical values, we take pride in our qualified and experienced faculty who are dedicated to nurturing the next generation of pharmaceutical professionals.</p>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="bg-light rounded h-100 d-flex align-items-center p-5">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <select class="form-select border-0" style="height: 55px;">
+                                            <option selected>Choose Doctor</option>
+                                            <option value="1">Doctor 1</option>
+                                            <option value="2">Doctor 2</option>
+                                            <option value="3">Doctor 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="date" id="date" data-target-input="nearest">
+                                            <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="time" id="time" data-target-input="nearest">
+                                            <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control border-0" rows="5" placeholder="Describe your problem"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Welcome End -->
+
 
         <!-- About Start -->
         <div class="container-xxl py-5">
@@ -80,12 +141,13 @@
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
-                        <h1 class="mb-4">Why You Should Trust Us? Get Know About Us!</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
-                        <p><i class="far fa-check-circle text-primary me-3"></i>Quality health care</p>
-                        <p><i class="far fa-check-circle text-primary me-3"></i>Only Qualified Doctors</p>
-                        <p><i class="far fa-check-circle text-primary me-3"></i>Medical Research Professionals</p>
+                        <h1 class="mb-4">Why You Should Choose Us? Get Know About Us!</h1>
+                        <p>At Dr. Ambedkar Institute of Pharmaceutical Sciences, we offer a transformative educational experience with expert faculty, cutting-edge infrastructure, and a focus on practical skills. </p>
+                        <p class="mb-4">Your well-being is our priority, reflected in safe hostels and a well-maintained canteen. With strong industry connections and an active placement cell, we ensure seamless transitions into successful careers. Our track record of alumni success underscores the effectiveness of our programs. Choose us for a holistic education that prepares you for a flourishing career in the pharmaceutical field.</p>
+                        <p><i class="far fa-check-circle text-primary me-3"></i>Expert Faculty</p>
+                        <p><i class="far fa-check-circle text-primary me-3"></i>State-of-the-Art Infrastructure</p>
+                        <p><i class="far fa-check-circle text-primary me-3"></i>Holistic Learning Environment</p>
+                        <p><i class="far fa-check-circle text-primary me-3"></i>Holistic Learning Environment</p>
                         <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
                     </div>
                 </div>
