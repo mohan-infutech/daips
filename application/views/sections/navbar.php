@@ -1,7 +1,7 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
     <a href="index" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <h1 class="m-0 text-primary"><i class="far fa-hospital me-3"></i>Klinik</h1>
+        <img class="img-fluid" src="<?= ASSETS . 'img/logo.png'; ?>" alt="">
     </a>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -11,7 +11,7 @@
             <a href="index" class="nav-item nav-link active">Home</a>
             <div class="nav-item dropdown">
                 <a href="about" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
-                <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                <div class="dropdown-menu rounded-0 rounded-bottom m-0 arrow-top">
                     <a href="#" class="dropdown-item">About Us</a>
                     <a href="#" class="dropdown-item">Message from Chairman</a>
                     <a href="#" class="dropdown-item">Message from Principal</a>

@@ -522,3 +522,14 @@
 
 
 /*Custom CSS*/
+
+.dropdown-menu .arrow-top {
+    position: absolute;
+}
+
+.dropdown-menu .arrow-top:before {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px; 
+}
