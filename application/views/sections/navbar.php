@@ -10,11 +10,11 @@
         <div class="navbar-nav ms-auto p-4 p-lg-0">
             <a href="index" class="nav-item nav-link active">Home</a>
             <div class="nav-item dropdown">
-                <a href="about" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0 arrow-top">
-                    <a href="#" class="dropdown-item">About Us</a>
-                    <a href="#" class="dropdown-item">Message from Chairman</a>
-                    <a href="#" class="dropdown-item">Message from Principal</a>
+                    <a href="about-us" class="dropdown-item">About Us</a>
+                    <a href="chairman-message" class="dropdown-item">Message from Chairman</a>
+                    <a href="principal-message" class="dropdown-item">Message from Principal</a>
                     <a href="#" class="dropdown-item">Approval</a>
                     <a href="#" class="dropdown-item">Affiliations</a>
                     <a href="#" class="dropdown-item">Recognition</a>

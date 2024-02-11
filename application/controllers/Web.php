@@ -42,4 +42,14 @@ class Web extends CI_Controller {
 		$this->load->view('contact');
 	}
 
+	public function principal($value='')
+	{
+		$this->load->view('principal-message');
+	}
+
+	public function chairman($value='')
+	{
+		$this->load->view('chairman-message');
+	}
+
 }

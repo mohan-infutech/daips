@@ -8,5 +8,7 @@ $route['faculties'] = 'web/faculties';
 $route['industry-exposure'] = 'web/industryExposure';
 $route['gallery'] = 'web/gallery';
 $route['contact-us'] = 'web/contact';
+$route['principal-message'] = 'web/principal';
+$route['chairman-message'] = 'web/chairman';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
