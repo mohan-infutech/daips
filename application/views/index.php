@@ -147,7 +147,6 @@
                         <p><i class="far fa-check-circle text-primary me-3"></i>Expert Faculty</p>
                         <p><i class="far fa-check-circle text-primary me-3"></i>State-of-the-Art Infrastructure</p>
                         <p><i class="far fa-check-circle text-primary me-3"></i>Holistic Learning Environment</p>
-                        <p><i class="far fa-check-circle text-primary me-3"></i>Holistic Learning Environment</p>
                         <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
                     </div>
                 </div>
@@ -230,7 +229,7 @@
         <!-- Service End -->
 
         
-        
+
 
         <?php $this->load->view('sections/testimonial'); ?>  
 

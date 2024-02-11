@@ -15,15 +15,12 @@
                     <a href="about-us" class="dropdown-item">About Us</a>
                     <a href="chairman-message" class="dropdown-item">Message from Chairman</a>
                     <a href="principal-message" class="dropdown-item">Message from Principal</a>
-                    <a href="#" class="dropdown-item">Approval</a>
-                    <a href="#" class="dropdown-item">Affiliations</a>
-                    <a href="#" class="dropdown-item">Recognition</a>
                 </div>
             </div>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Programs</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                    <a href="#" class="dropdown-item">B. Pharm</a>
+                    <a href="bachelor-in-pharmacy" class="dropdown-item">B. Pharm</a>
                     <a href="#" class="dropdown-item">D. Pharm</a>
                 </div>
             </div>
@@ -37,7 +34,7 @@
             </div>
             <a href="faculties" class="nav-item nav-link">faculties</a>
             <a href="industry-exposure" class="nav-item nav-link">Industry Exposure</a>
-            <a href="contact.html" class="nav-item nav-link">Gallery</a>
+            <a href="#" class="nav-item nav-link">Gallery</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">NAAC</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
