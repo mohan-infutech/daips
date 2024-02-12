@@ -11,6 +11,6 @@ $route['contact-us'] = 'web/contact';
 $route['principal-message'] = 'web/principal';
 $route['chairman-message'] = 'web/chairman';
 $route['bachelor-in-pharmacy'] = 'web/bpharm';
-$route['process'] = 'web/process';
+$route['notice-news'] = 'web/notice';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

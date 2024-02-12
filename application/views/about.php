@@ -174,6 +174,25 @@
 </div>
 
 
+ <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 mx-auto">
+                <div class="card bg-light border-0">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <div>
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">
+                                This is a simple card with a title and description. Customize it to suit your needs!
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary" download>Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 <?php $this->load->view('sections/footer'); ?>

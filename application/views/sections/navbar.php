@@ -27,7 +27,7 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Academics</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                    <a href="#" class="dropdown-item">Notices & News</a>
+                    <a href="notice-news" class="dropdown-item">Notices & News</a>
                     <a href="#" class="dropdown-item">Academic Calendar</a>
                     <a href="#" class="dropdown-item">Syllabus</a>
                 </div>
