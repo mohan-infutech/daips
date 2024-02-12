@@ -37,6 +37,44 @@
     <!-- Page Header End -->
 
 
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="gallery-item rounded">
+                    <img src="https://via.placeholder.com/300" alt="Image 1">
+                    <div class="overlay">
+                        <h3>Title 1</h3>
+                        <p>Description 1</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="gallery-item rounded">
+                    <img src="https://via.placeholder.com/300" alt="Image 2">
+                    <div class="overlay">
+                        <h3>Title 2</h3>
+                        <p>Description 2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="gallery-item rounded">
+                    <img src="https://via.placeholder.com/300" alt="Image 3">
+                    <div class="overlay">
+                        <h3>Title 3</h3>
+                        <p>Description 3</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more gallery items as needed -->
+        </div>
+    </div>
+
+    
+
+
 
 
 <?php $this->load->view('sections/footer'); ?>

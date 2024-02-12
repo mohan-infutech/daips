@@ -8,7 +8,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="index" class="nav-item nav-link active">Home</a>
+            <a href="web" class="nav-item nav-link active">Home</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0 arrow-top">
@@ -34,7 +34,7 @@
             </div>
             <a href="faculties" class="nav-item nav-link">faculties</a>
             <a href="industry-exposure" class="nav-item nav-link">Industry Exposure</a>
-            <a href="#" class="nav-item nav-link">Gallery</a>
+            <a href="gallery" class="nav-item nav-link">Gallery</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">NAAC</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
