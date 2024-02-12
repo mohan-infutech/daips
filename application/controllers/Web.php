@@ -57,4 +57,10 @@ class Web extends CI_Controller {
 		$this->load->view('bpharm');
 	}
 
+	public function process($value='')
+	{
+		$this->load->view('process');
+	}
+
+
 }
