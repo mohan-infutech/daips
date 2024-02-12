@@ -109,69 +109,69 @@
 
 
 <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
-                    <h1>Shaping Dreams, Inspiring Futures </h1>
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
+            <h1>Shaping Dreams, Inspiring Futures </h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <i class="fa fa-heartbeat text-primary fs-4"></i>
+                    </div>
+                    <h4 class="mb-3">Our Mission</h4>
+                    <p class="mb-4">Be the most sought after educational institution in the world for Pharmaceutical Science by 2040.</p>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-heartbeat text-primary fs-4"></i>
-                            </div>
-                            <h4 class="mb-3">Our Mission</h4>
-                            <p class="mb-4">Be the most sought after educational institution in the world for Pharmaceutical Science by 2040.</p>
-                        </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <i class="fa fa-x-ray text-primary fs-4"></i>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-x-ray text-primary fs-4"></i>
-                            </div>
-                            <h4 class="mb-3">Our vision</h4>
-                            <p class="mb-4">Striving our best to build Pharmaceutical leaders of the future, who would consistently raise the bar with their exemplary performance. </p>
-                        </div>
+                    <h4 class="mb-3">Our vision</h4>
+                    <p class="mb-4">Striving our best to build Pharmaceutical leaders of the future, who would consistently raise the bar with their exemplary performance. </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <i class="fa fa-brain text-primary fs-4"></i>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-brain text-primary fs-4"></i>
-                            </div>
-                            <h4 class="mb-3">our Values</h4>
-                            <p class="mb-4">Relentless pursuit of excellence, Highest standards of integrity, Mindset to serve, Driving scalable impact for the world.</p>
-                        </div>
+                    <h4 class="mb-3">our Values</h4>
+                    <p class="mb-4">Relentless pursuit of excellence, Highest standards of integrity, Mindset to serve, Driving scalable impact for the world.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <i class="fa fa-wheelchair text-primary fs-4"></i>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-wheelchair text-primary fs-4"></i>
-                            </div>
-                            <h4 class="mb-3">Our infrastructure</h4>
-                            <p class="mb-4">We have our own land and building, state of the art library and laboratories, round the clock power back up and water supply, well ventilated & spacious classrooms etc. to aid students in accessing high quality education. </p>
-                        </div>
+                    <h4 class="mb-3">Our infrastructure</h4>
+                    <p class="mb-4">We have our own land and building, state of the art library and laboratories, round the clock power back up and water supply, well ventilated & spacious classrooms etc. to aid students in accessing high quality education. </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <i class="fa fa-tooth text-primary fs-4"></i>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-tooth text-primary fs-4"></i>
-                            </div>
-                            <h4 class="mb-3">Our Facilities</h4>
-                            <p class="mb-4">We offer hygienic and spacious separate hostels for boys and girls, canteen facility, adequate room for indoor and outdoor sports, open air stage for various functions and extra curricular activities. </p>
-                        </div>
+                    <h4 class="mb-3">Our Facilities</h4>
+                    <p class="mb-4">We offer hygienic and spacious separate hostels for boys and girls, canteen facility, adequate room for indoor and outdoor sports, open air stage for various functions and extra curricular activities. </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-light rounded h-100 p-5">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                        <i class="fa fa-vials text-primary fs-4"></i>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-vials text-primary fs-4"></i>
-                            </div>
-                            <h4 class="mb-3">Our Advisory Council</h4>
-                            <p class="mb-4">We have an extremely valuable Advisory council comprising stellar academicians like ex-Vice chancellors from Berhampur University, BPUT, FM University, ex- Additional Director - IIT Bhubaneswar and other prominent dignitaries consistently guiding us on our pedagogy for Pharmaceutical Science.</p>
-                        </div>
-                    </div>
+                    <h4 class="mb-3">Our Advisory Council</h4>
+                    <p class="mb-4">We have an extremely valuable Advisory council comprising stellar academicians like ex-Vice chancellors from Berhampur University, BPUT, FM University, ex- Additional Director - IIT Bhubaneswar and other prominent dignitaries consistently guiding us on our pedagogy for Pharmaceutical Science.</p>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
 
 
