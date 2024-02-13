@@ -21,15 +21,15 @@
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Programs</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                     <a href="bachelor-in-pharmacy" class="dropdown-item">B. Pharm</a>
-                    <a href="#" class="dropdown-item">D. Pharm</a>
+                    <a href="doctrate-in-pharmacy" class="dropdown-item">D. Pharm</a>
                 </div>
             </div>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Academics</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                     <a href="notice-news" class="dropdown-item">Notices & News</a>
-                    <a href="#" class="dropdown-item">Academic Calendar</a>
-                    <a href="#" class="dropdown-item">Syllabus</a>
+                    <a href="academic-calendar" class="dropdown-item">Academic Calendar</a>
+                    <a href="academic-syllabus" class="dropdown-item">Syllabus</a>
                 </div>
             </div>
             <a href="faculties" class="nav-item nav-link">faculties</a>

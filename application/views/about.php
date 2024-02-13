@@ -185,7 +185,7 @@
                                 This is a simple card with a title and description. Customize it to suit your needs!
                             </p>
                         </div>
-                        <a href="#" class="btn btn-primary" download>Download</a>
+                        <a href="#" class="btn btn-primary" download><i class="fas fa-download me-3"></i>Download</a>
                     </div>
                 </div>
             </div>

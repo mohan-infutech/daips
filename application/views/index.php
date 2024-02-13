@@ -164,69 +164,41 @@
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-heartbeat text-primary fs-4"></i>
+                        <div class="card bg-light rounded h-100">
+                            <img class="img-fluid rounded w-100 align-self-centre card-img-top" src="<?= ASSETS . 'img/about-1.jpg'; ?>" alt="">
+                            <div class="card-body p-4">
+                                <h4 class="card-title mb-3">Cardiology</h4>
+                                <p class="card-text mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                <a class="btn btn-primary" href="#"><i class="fas fa-arrow-right me-3"></i>Read More</a>
                             </div>
-                            <h4 class="mb-3">Cardiology</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fas fa-arrow-right text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-x-ray text-primary fs-4"></i>
-                            </div>
-                            <h4 class="mb-3">Pulmonary</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fas fa-arrow-right text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-brain text-primary fs-4"></i>
-                            </div>
-                            <h4 class="mb-3">Neurology</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fas fa-arrow-right text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-wheelchair text-primary fs-4"></i>
+                        <div class="card card-desc bg-light rounded h-100 wow fadeInUp" data-wow-delay="0.1s">
+                            <img class="img-fluid rounded w-100 align-self-centre card-img-top" src="<?= ASSETS . 'img/about-1.jpg'; ?>" alt="">
+                            <div class="card-body p-4">
+                                <h4 class="card-title mb-3">Cardiology</h4>
+                                <p class="card-text mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                <a class="btn btn-primary" href="#"><i class="fas fa-arrow-right me-3"></i>Read More</a>
                             </div>
-                            <h4 class="mb-3">Orthopedics</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fas fa-arrow-right text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-tooth text-primary fs-4"></i>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="card bg-light rounded h-100">
+                            <img class="img-fluid rounded w-100 align-self-centre card-img-top" src="<?= ASSETS . 'img/about-1.jpg'; ?>" alt="">
+                            <div class="card-body p-4">
+                                <h4 class="card-title mb-3">Cardiology</h4>
+                                <p class="card-text mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                <a class="btn btn-primary" href="#"><i class="fas fa-arrow-right me-3"></i>Read More</a>
                             </div>
-                            <h4 class="mb-3">Dental Surgery</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fas fa-arrow-right text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item bg-light rounded h-100 p-5">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-vials text-primary fs-4"></i>
-                            </div>
-                            <h4 class="mb-3">Laboratory</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fas fa-arrow-right text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Service End -->
+
+
 
         
 

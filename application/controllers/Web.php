@@ -57,9 +57,24 @@ class Web extends CI_Controller {
 		$this->load->view('bpharm');
 	}
 
+	public function dpharm($value='')
+	{
+		$this->load->view('dpharm');
+	}
+
 	public function notice($value='')
 	{
 		$this->load->view('notice');
+	}
+
+	public function syllabus($value='')
+	{
+		$this->load->view('syllabus');
+	}
+
+	public function academicCalendar($value='')
+	{
+		$this->load->view('academic-Calendar');
 	}
 
 

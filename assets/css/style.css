@@ -134,12 +134,15 @@
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
-        border: none;
+        border-top: 3px solid red;
+        border-bottom:1px solid rgba(255, 255, 255, 0.20);
         margin-top: 0;
         top: 150%;
         opacity: 0;
         visibility: hidden;
         transition: .5s;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.05);
+
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -273,6 +276,32 @@
     width: 140px;
 }
 
+/*Image Card*/
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    margin-top: -10px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.card .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    color: var(--primary);
+    border-radius: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card:hover .btn {
+    width: 140px;
+}
 
 /*** Feature ***/
 @media (min-width: 992px) {

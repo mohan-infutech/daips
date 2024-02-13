@@ -79,6 +79,10 @@
         <!-- Service End -->
 
 
+<?php $this->load->view('sections/testimonial'); ?>
+
+
+
  
 
 
