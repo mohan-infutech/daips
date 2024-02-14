@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0463FA;
+    --primary: #006838;
     --light: #EFF5FF;
     --dark: #1B2C51;
 }
@@ -609,4 +609,10 @@
         .overlay p {
             margin: 0;
             padding: 10px;
+        }
+
+
+        .bg-pharma {
+            background: url('..assets/img/pattern.png');
+            background-color: #006838;
         }
