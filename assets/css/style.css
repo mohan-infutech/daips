@@ -112,7 +112,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
+    .navbar .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -141,7 +141,7 @@
     .navbar .nav-item .dropdown-menu {
         display: block;
         border-top: 3px solid red;
-        border-bottom:1px solid rgba(255, 255, 255, 0.20);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.20);
         margin-top: 0;
         top: 150%;
         opacity: 0;
@@ -251,7 +251,7 @@
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -315,19 +315,19 @@
         max-width: 100% !important;
     }
 
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -429,6 +429,7 @@
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -436,6 +437,7 @@
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -464,7 +466,7 @@
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
     background: var(--primary) !important;
-} 
+}
 
 .testimonial-carousel .owl-nav {
     position: absolute;
@@ -566,7 +568,7 @@
     word-wrap: break-word;
     background-color: #EFF5FF;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,0.125);
+    border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 8px;
 }
 
@@ -742,5 +744,42 @@
     border-radius: 50px;
 }
 
+.header .navbar .dropdown-menu a.dropdown-item {
+    min-width: 180px;
+}
 
+.header .navbar .dropdown-menu {
+    padding: 15px;
+}
 
+.header .navbar .dropdown-menu li a i {
+    margin-left: auto;
+}
+
+.navbar .dropdown>.dropdown-menu li>a {
+    font-size: 14px;
+    padding: 10px 20px 10px 0px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.navbar .dropdown>.dropdown-menu li>a:hover {
+    padding-left: 15px;
+}
+
+.navbar .dropdown>.dropdown-menu li>a:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 100%;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navbar .dropdown>.dropdown-menu li>a:hover:before {
+    width: 100%;
+    background: rgba(0, 104, 56, 0.1);
+    color: #006838;
+}

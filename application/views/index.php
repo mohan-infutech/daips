@@ -78,7 +78,7 @@
                         <h1 class="mb-4">Who We Are</h1>
                         <p class="mb-4">Welcome to Dr. Ambedkar Institute of Pharmaceutical Sciences, a distinguished institution committed to shaping the future of pharmaceutical education and research. Established with a vision to empower aspiring pharmacists with knowledge, skills, and ethical values, we take pride in our qualified and experienced faculty who are dedicated to nurturing the next generation of pharmaceutical professionals.</p>
                         <div class="col-12">
-                            <button class="btn btn-primary" type="submit">Know More</button>
+                            <button class="btn btn-primary rounded py-3 px-5 mt-3" type="submit">Know More</button>
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -147,7 +147,7 @@
                         <p><i class="far fa-check-circle text-custom me-3"></i>Expert Faculty</p>
                         <p><i class="far fa-check-circle text-custom me-3"></i>State-of-the-Art Infrastructure</p>
                         <p><i class="far fa-check-circle text-custom me-3"></i>Holistic Learning Environment</p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+                        <a class="btn btn-primary rounded py-3 px-5 mt-3" href="">Read More</a>
                     </div>
                 </div>
             </div>
