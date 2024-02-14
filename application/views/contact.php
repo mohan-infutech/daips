@@ -19,8 +19,7 @@
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb text-uppercase mb-0">
                 <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                <li class="breadcrumb-item text-primary active" aria-current="page">Contact</li>
+                <li class="breadcrumb-item text-custom active" aria-current="page">Contact</li>
             </ol>
         </nav>
     </div>

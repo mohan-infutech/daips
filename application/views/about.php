@@ -29,7 +29,7 @@
                 <ol class="breadcrumb text-uppercase mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">About</li>
+                    <li class="breadcrumb-item text-custom active" aria-current="page">About</li>
                 </ol>
             </nav>
         </div>
@@ -52,7 +52,7 @@
                         <div class="col-6">
                             <div class="d-flex align-items-center">
                                 <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                    <i class="fas fa-chalkboard-teacher text-primary"></i>
+                                    <i class="fas fa-chalkboard-teacher text-custom"></i>
                                 </div>
                                 <div class="ms-4">
                                     <p class="text-white mb-2">Expert </p>
@@ -63,7 +63,7 @@
                         <div class="col-6">
                             <div class="d-flex align-items-center">
                                 <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                    <i class="fa fa-check text-primary"></i>
+                                    <i class="fa fa-check text-custom"></i>
                                 </div>
                                 <div class="ms-4">
                                     <p class="text-white mb-2">State-of-the-Art</p>
@@ -74,7 +74,8 @@
                         <div class="col-6">
                             <div class="d-flex align-items-center">
                                 <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                    <i class="fa fa-comment-medical text-primary"></i>
+                                    <i class="fas fa-graduation-cap text-custom"></i>
+                                    <i class="fas fa-graduation-cap"></i>
                                 </div>
                                 <div class="ms-4">
                                     <p class="text-white mb-2">Holistic</p>
@@ -85,7 +86,7 @@
                         <div class="col-6">
                             <div class="d-flex align-items-center">
                                 <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                    <i class="fa fa-headphones text-primary"></i>
+                                    <i class="fa fa-headphones text-custom"></i>
                                 </div>
                                 <div class="ms-4">
                                     <p class="text-white mb-2">Active </p>
@@ -118,7 +119,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded h-100 p-5">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fas fa-bullseye text-primary fs-4"></i>
+                        <i class="fas fa-bullseye text-custom fs-4"></i>
                     </div>
                     <h4 class="mb-3">Our Mission</h4>
                     <p class="mb-4">Be the most sought after educational institution in the world for Pharmaceutical Science by 2040.</p>
@@ -127,7 +128,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item bg-light rounded h-100 p-5">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fa fa-brain text-primary fs-4"></i>
+                        <i class="fa fa-brain text-custom fs-4"></i>
                     </div>
                     <h4 class="mb-3">Our vision</h4>
                     <p class="mb-4">Striving our best to build Pharmaceutical leaders of the future, who would consistently raise the bar with their exemplary performance. </p>
@@ -136,7 +137,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item bg-light rounded h-100 p-5">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fas fa-hand-holding-heart text-primary fs-4"></i>
+                        <i class="fas fa-hand-holding-heart text-custom fs-4"></i>
                     </div>
                     <h4 class="mb-3">Our Values</h4>
                     <p class="mb-4">Relentless pursuit of excellence, Highest standards of integrity, Mindset to serve, Driving scalable impact for the world.</p>
@@ -145,7 +146,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded h-100 p-5">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fas fa-university text-primary fs-4"></i>
+                        <i class="fas fa-university text-custom fs-4"></i>
                     </div>
                     <h4 class="mb-3">Our Infrastructure</h4>
                     <p class="mb-4">We have our own land and building, state of the art library and laboratories, round the clock power back up and water supply, well ventilated & spacious classrooms etc. to aid students in accessing high quality education. </p>
@@ -154,7 +155,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item bg-light rounded h-100 p-5">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fas fa-users-cog text-primary fs-4"></i>
+                        <i class="fas fa-users-cog text-custom fs-4"></i>
                     </div>
                     <h4 class="mb-3">Our Facilities</h4>
                     <p class="mb-4">We offer hygienic and spacious separate hostels for boys and girls, canteen facility, adequate room for indoor and outdoor sports, open air stage for various functions and extra curricular activities. </p>
@@ -163,7 +164,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item bg-light rounded h-100 p-5">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fas fa-users text-primary fs-4"></i>
+                        <i class="fas fa-users text-custom fs-4"></i>
                     </div>
                     <h4 class="mb-3">Our Advisory Council</h4>
                     <p class="mb-4">We have an extremely valuable Advisory council comprising stellar academicians like ex-Vice chancellors from Berhampur University, BPUT, FM University, ex- Additional Director - IIT Bhubaneswar and other prominent dignitaries consistently guiding us on our pedagogy for Pharmaceutical Science.</p>
@@ -174,23 +175,6 @@
 </div>
 
 
- <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-12 mx-auto">
-                <div class="card bg-light border-0">
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <div>
-                            <h5 class="card-title">Card Title</h5>
-                            <p class="card-text">
-                                This is a simple card with a title and description. Customize it to suit your needs!
-                            </p>
-                        </div>
-                        <a href="#" class="btn btn-primary" download><i class="fas fa-download me-3"></i>Download</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 

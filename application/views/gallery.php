@@ -77,7 +77,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-md-10 text-center">
                     <div class="section-title">
-                        <h2 class="title">Let's have a look at what creativity is!</h2>
+                        <p class="d-inline-block border rounded-pill py-1 px-4">Gallery</p>
+                        <h2 class="title">Let's have a look at our gallery</h2>
                     </div>
                 </div>
             </div>
