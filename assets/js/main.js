@@ -1,3 +1,21 @@
+document.addEventListener('DOMContentLoaded', function () {
+    var Shuffle = window.Shuffle;
+    var element = document.querySelector('.my-shuffle-container');
+    var shuffle = new Shuffle(element, {
+        itemSelector: '.grid-item',
+    });
+
+    // Add event listeners for filter buttons
+    var filterButtons = document.querySelectorAll('.btn-filter');
+    filterButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            var group = button.getAttribute('data-group');
+            shuffle.filter(group);
+        });
+    });
+});
+
+
 (function ($) {
     "use strict";
 
@@ -95,4 +113,6 @@
 
     
 })(jQuery);
+
+
 

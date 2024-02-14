@@ -246,7 +246,7 @@
 }
 
 .page-header {
-    background: url(../img/header-page.jpg) top center no-repeat;
+    background: url(../img/banner-header.jpg) top center no-repeat;
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
@@ -578,51 +578,153 @@
 
 /*Gallery*/
 
-.gallery-item {
-            position: relative;
-            overflow: hidden;
-            transition: transform 0.3s ease-in-out;
-        }
+/*.gallery-item {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
 
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            opacity: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            transition: opacity 0.3s ease-in-out;
-        }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
 
-        .gallery-item:hover .overlay {
-            opacity: 1;
-        }
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
 
-        .overlay h3,
-        .overlay p {
-            margin: 0;
-            padding: 10px;
-        }
+.overlay h3,
+.overlay p {
+    margin: 0;
+    padding: 10px;
+}*/
 
 
-        .bg-pharma {
-            background: url('../img/pattern.png');
-            background-color: #006838;
-        }
+.bg-pharma {
+    background: url('../img/pattern.png');
+    background-color: #006838;
+}
 
-        .text-custom {
-            color: #006838;
-        }
+.text-custom {
+    color: #006838;
+}
+
+.space-ptb {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.filters-group {
+    text-align: center;
+}
+
+.btn-filter {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-filter.active {
+    background-color: #0056b3;
+}
+
+.my-shuffle-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.grid-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+.portfolio-description {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.portfolio-info {
+    text-align: center;
+}
+
+.portfolio-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.icon-btn {
+    font-size: 24px;
+}
+
