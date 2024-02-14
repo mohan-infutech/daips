@@ -144,9 +144,9 @@
                         <h1 class="mb-4">Why You Should Choose Us? Get Know About Us!</h1>
                         <p>At Dr. Ambedkar Institute of Pharmaceutical Sciences, we offer a transformative educational experience with expert faculty, cutting-edge infrastructure, and a focus on practical skills. </p>
                         <p class="mb-4">Your well-being is our priority, reflected in safe hostels and a well-maintained canteen. With strong industry connections and an active placement cell, we ensure seamless transitions into successful careers. Our track record of alumni success underscores the effectiveness of our programs. Choose us for a holistic education that prepares you for a flourishing career in the pharmaceutical field.</p>
-                        <p><i class="far fa-check-circle text-primary me-3"></i>Expert Faculty</p>
-                        <p><i class="far fa-check-circle text-primary me-3"></i>State-of-the-Art Infrastructure</p>
-                        <p><i class="far fa-check-circle text-primary me-3"></i>Holistic Learning Environment</p>
+                        <p><i class="far fa-check-circle text-custom me-3"></i>Expert Faculty</p>
+                        <p><i class="far fa-check-circle text-custom me-3"></i>State-of-the-Art Infrastructure</p>
+                        <p><i class="far fa-check-circle text-custom me-3"></i>Holistic Learning Environment</p>
                         <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
                     </div>
                 </div>
@@ -165,31 +165,31 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item bg-light rounded h-100 p-5">
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fas fa-bullseye text-primary fs-4"></i>
+                                <i class="fas fa-bullseye text-custom fs-4"></i>
                             </div>
                             <h4 class="mb-3">Courses offered</h4>
                             <p class="mb-4">We have been offering D.Pharma course with 60 seats since our inception in 2019 and B.Pharma course with 60 seats from academic session 2021-22 onwards.</p>
-                            <a class="btn" href=""><i class="fas fa-arrow-right text-primary me-3"></i>Read More</a>
+                            <a class="btn" href=""><i class="fas fa-arrow-right text-custom me-3"></i>Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-item bg-light rounded h-100 p-5">
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fa fa-brain text-primary fs-4"></i>
+                                <i class="fa fa-brain text-custom fs-4"></i>
                             </div>
                             <h4 class="mb-3">Course Recognition</h4>
                             <p class="mb-4">Our B.Pharma & D.Pharma courses are approved by Pharmacy Council of India, New Delhi & recognized by Health & Family Welfare Department, Govt. of Odisha. We are affiliated to BPUT, Rourkela. We are ISO 9001:2015 certified.</p>
-                            <a class="btn" href=""><i class="fas fa-arrow-right text-primary me-3"></i>Read More</a>
+                            <a class="btn" href=""><i class="fas fa-arrow-right text-custom me-3"></i>Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-item bg-light rounded h-100 p-5">
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                                <i class="fas fa-hand-holding-heart text-primary fs-4"></i>
+                                <i class="fas fa-hand-holding-heart text-custom fs-4"></i>
                             </div>
                             <h4 class="mb-3">Choose Excellence</h4>
                             <p class="mb-4">We have qualified and experienced faculty, state of the art laboratory & infrastructure, hygienic hostel  and canteen facilities for boys & girls. We are well connected with the industry & have an active placement cell.</p>
-                            <a class="btn" href=""><i class="fas fa-arrow-right text-primary me-3"></i>Read More</a>
+                            <a class="btn" href=""><i class="fas fa-arrow-right text-custom me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>

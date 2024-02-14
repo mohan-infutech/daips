@@ -52,6 +52,12 @@
     color: #FFFFFF;
 }
 
+.btn.btn-primary,
+.btn.btn-secondary:hover {
+    color: #FFFFFF;
+}
+
+
 .btn-square {
     width: 38px;
     height: 38px;
@@ -613,6 +619,10 @@
 
 
         .bg-pharma {
-            background: url('..assets/img/pattern.png');
+            background: url('../img/pattern.png');
             background-color: #006838;
+        }
+
+        .text-custom {
+            color: #006838;
         }

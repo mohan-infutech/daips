@@ -38,7 +38,7 @@
 
 
 <!-- Feature Start -->
-<div class="container-fluid bg-primary overflow-hidden my-5 px-lg-0">
+<div class="container-fluid bg-pharma overflow-hidden my-5 px-lg-0">
     <div class="container feature px-lg-0">
         <div class="row g-0 mx-lg-0">
             <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -52,7 +52,7 @@
                         <div class="col-6">
                             <div class="d-flex align-items-center">
                                 <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
-                                    <i class="fa fa-user-md text-primary"></i>
+                                    <i class="fas fa-chalkboard-teacher text-primary"></i>
                                 </div>
                                 <div class="ms-4">
                                     <p class="text-white mb-2">Expert </p>
