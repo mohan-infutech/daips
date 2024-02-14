@@ -83,7 +83,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="filters-group mb-2 mb-lg-5">
+                    <div class="filters-group mb-5 mb-lg-5">
                         <button class="btn-filter active" data-group="all">View All</button>
                         <button class="btn-filter" data-group="dental">Dental</button>
                         <button class="btn-filter" data-group="medicine">Medicine</button>
@@ -93,49 +93,90 @@
                     <div class="my-shuffle-container popup-gallery full-screen">
                         <!-- Gallery items (repeated for each image) -->
 
-                        <div class="col-md-4 grid-item mb-4 px-4" data-groups='["dental"]'>
+                        <div class="col-md-4 grid-item mb-4 px-4 py-3" data-groups='["dental"]'>
                             <div class="portfolio-item rounded">
                                 <img src="<?= ASSETS . 'img/gallery/01.jpg'; ?>" style="object-fit: cover;" alt="">
                                 <div class="portfolio-overlay">
                                     <a class="portfolio-description portfolio-img" href="#previewModal1" data-bs-toggle="modal" data-bs-target="#previewModal1">
-                                        <div class="portfolio-info">
+                                        <div class="portfolio-info d-flex flex-column align-items-center">
                                             <span class="portfolio-title">Title 1</span>
-                                            <span class="icon-btn"><i class="fas fa-plus"></i></span>
+                                            <span class="icon-btn"><i class="fas fa-search"></i></span>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 grid-item mb-4 px-4" data-groups='["medicine"]'>
+                        <div class="col-md-4 grid-item mb-4 px-4 py-3" data-groups='["medicine"]'>
                             <div class="portfolio-item rounded">
-                                <img src="https://images.unsplash.com/photo-1707823585193-850a928684e7?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/300" alt="Image 2">
+                                <img src="<?= ASSETS . 'img/gallery/02.jpg'; ?>" style="object-fit: cover;" alt="">
                                 <div class="portfolio-overlay">
                                     <a class="portfolio-description portfolio-img" href="#previewModal2" data-bs-toggle="modal" data-bs-target="#previewModal2">
-                                        <div class="portfolio-info">
-                                            <span class="portfolio-title">Title 2</span>
-                                            <span class="icon-btn"><i class="fas fa-plus"></i></span>
+                                        <div class="portfolio-info d-flex flex-column align-items-center">
+                                            <span class="portfolio-title">Neurology</span>
+                                            <span class="icon-btn"><i class="fas fa-search"></i></span>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 grid-item mb-4 px-4" data-groups='["orthopaedics"]'>
+                        <div class="col-md-4 grid-item mb-4 px-4 py-3" data-groups='["orthopaedics"]'>
                             <div class="portfolio-item rounded ">
-                                <img src="https://via.placeholder.com/300" alt="Image 3">
+                                <img src="<?= ASSETS . 'img/gallery/03.jpg'; ?>" style="object-fit: cover;" alt="">
                                 <div class="portfolio-overlay">
                                     <a class="portfolio-description portfolio-img" href="#previewModal3" data-bs-toggle="modal" data-bs-target="#previewModal3">
-                                        <div class="portfolio-info">
+                                        <div class="portfolio-info d-flex flex-column align-items-center">
                                             <span class="portfolio-title">Title 3</span>
-                                            <span class="icon-btn"><i class="fas fa-plus"></i></span>
+                                            <span class="icon-btn"><i class="fas fa-search"></i></span>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Repeat this structure for additional images -->
+                        <div class="col-md-4 grid-item mb-4 px-4 py-3" data-groups='["dental"]'>
+                            <div class="portfolio-item rounded">
+                                <img src="<?= ASSETS . 'img/gallery/04.jpg'; ?>" style="object-fit: cover;" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="portfolio-description portfolio-img" href="#previewModal1" data-bs-toggle="modal" data-bs-target="#previewModal1">
+                                        <div class="portfolio-info d-flex flex-column align-items-center">
+                                            <span class="portfolio-title">Title 1</span>
+                                            <span class="icon-btn"><i class="fas fa-search"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 grid-item mb-4 px-4 py-3" data-groups='["neurology"]'>
+                            <div class="portfolio-item rounded">
+                                <img src="<?= ASSETS . 'img/gallery/05.jpg'; ?>" style="object-fit: cover;" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="portfolio-description portfolio-img" href="#previewModal2" data-bs-toggle="modal" data-bs-target="#previewModal2">
+                                        <div class="portfolio-info d-flex flex-column align-items-center">
+                                            <span class="portfolio-title">Neurology</span>
+                                            <span class="icon-btn"><i class="fas fa-search"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 grid-item mb-4 px-4 py-3" data-groups='["orthopaedics"]'>
+                            <div class="portfolio-item rounded ">
+                                <img src="<?= ASSETS . 'img/gallery/06.jpg'; ?>" style="object-fit: cover;" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="portfolio-description portfolio-img" href="#previewModal3" data-bs-toggle="modal" data-bs-target="#previewModal3">
+                                        <div class="portfolio-info d-flex flex-column align-items-center">
+                                            <span class="portfolio-title">Title 3</span>
+                                            <span class="icon-btn"><i class="fas fa-search"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -150,7 +191,7 @@
                     <img class="img-fluid w-100 h-100" src="<?= ASSETS . 'img/gallery/01.jpg'; ?>" style="object-fit: cover;" alt="">
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -160,10 +201,10 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="https://via.placeholder.com/300" class="img-fluid" alt="Preview Image 2">
+                    <img class="img-fluid w-100 h-100" src="<?= ASSETS . 'img/gallery/02.jpg'; ?>" style="object-fit: cover;" alt="">
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -173,14 +214,54 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="https://via.placeholder.com/300" class="img-fluid" alt="Preview Image 3">
+                    <img class="img-fluid w-100 h-100" src="<?= ASSETS . 'img/gallery/03.jpg'; ?>" style="object-fit: cover;" alt="">
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="previewModal1" tabindex="-1" aria-labelledby="previewModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid w-100 h-100" src="<?= ASSETS . 'img/gallery/04.jpg'; ?>" style="object-fit: cover;" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="previewModal2" tabindex="-1" aria-labelledby="previewModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid w-100 h-100" src="<?= ASSETS . 'img/gallery/05.jpg'; ?>" style="object-fit: cover;" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="previewModal3" tabindex="-1" aria-labelledby="previewModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid w-100 h-100" src="<?= ASSETS . 'img/gallery/06.jpg'; ?>" style="object-fit: cover;" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
