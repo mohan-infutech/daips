@@ -40,8 +40,8 @@
 <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <p class="d-inline-block border rounded-pill py-1 px-4">Services</p>
-                    <h1>Health Care Solutions</h1>
+                    <p class="d-inline-block border rounded-pill py-1 px-4">Programs</p>
+                    <h1>Discover Our Dynamic Courses</h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -49,9 +49,8 @@
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                                 <i class="fa fa-heartbeat text-primary fs-4"></i>
                             </div>
-                            <h4 class="mb-3">Cardiology</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <h4 class="mb-3">Courses & Affiliation</h4>
+                            <p class="mb-4">We offer D. Pharmacy and B.Pharmacy courses, each with 60 seats. Both programs are approved by the Pharmacy Council of India, New Delhi, and recognized by the Department of Health & Family Welfare, Government of Odisha. We are ISO 9001:2015 certified.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -59,9 +58,8 @@
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                                 <i class="fa fa-x-ray text-primary fs-4"></i>
                             </div>
-                            <h4 class="mb-3">Pulmonary</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <h4 class="mb-3">Faculty</h4>
+                            <p class="mb-4">Our skilled faculty brings real-world experience from the pharmaceutical industry. They balance theory with hands-on learning, using small batches for interactive doubt clarification sessions, ensuring students understand and learn concepts effectively.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -69,9 +67,8 @@
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                                 <i class="fa fa-brain text-primary fs-4"></i>
                             </div>
-                            <h4 class="mb-3">Neurology</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <h4 class="mb-3">Practical Exposure</h4>
+                            <p class="mb-4">Our students gain valuable hands-on experience through our partnerships. With support from professors and practitioners in our network of hospitals, they apply theoretical knowledge to real-world scenarios in their Pharmaceutical studies.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -79,9 +76,8 @@
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                                 <i class="fa fa-wheelchair text-primary fs-4"></i>
                             </div>
-                            <h4 class="mb-3">Orthopedics</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <h4 class="mb-3">Examinations</h4>
+                            <p class="mb-4">We regularly assess our students to keep them focused and engaged in their studies. These assessments promote healthy competition among peers, encouraging continuous improvement over time.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -89,9 +85,8 @@
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                                 <i class="fa fa-tooth text-primary fs-4"></i>
                             </div>
-                            <h4 class="mb-3">Dental Surgery</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <h4 class="mb-3">Results</h4>
+                            <p class="mb-4">We believe strongly in our students success. This confidence comes from the support and values we've given them during their time here. It sets the groundwork for them to achieve outstanding results.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -99,9 +94,8 @@
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
                                 <i class="fa fa-vials text-primary fs-4"></i>
                             </div>
-                            <h4 class="mb-3">Laboratory</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <h4 class="mb-3">Extra curricular activities</h4>
+                            <p class="mb-4">Our students participate in various enjoyable activities, giving them a chance to pursue their interests, build confidence, and relax. Engaging in these activities also helps them develop valuable skills that are important for success in life.</p>
                         </div>
                     </div>
                 </div>

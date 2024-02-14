@@ -21,7 +21,7 @@
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Programs</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                     <a href="bachelor-in-pharmacy" class="dropdown-item">B. Pharm</a>
-                    <a href="doctrate-in-pharmacy" class="dropdown-item">D. Pharm</a>
+                    <a href="diploma-in-pharmacy" class="dropdown-item">D. Pharm</a>
                 </div>
             </div>
             <div class="nav-item dropdown">
