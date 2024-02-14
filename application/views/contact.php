@@ -38,7 +38,7 @@
                     </div>
                     <div class="ms-4">
                         <p class="mb-2">Address</p>
-                        <h5 class="mb-0">123 Street, New York, USA</h5>
+                        <h5 class="mb-0">Jabaghat, Rourkela, Odisha. PIN - 769042</h5>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="ms-4">
                         <p class="mb-2">Call Us Now</p>
-                        <h5 class="mb-0">+012 345 6789</h5>
+                        <h5 class="mb-0">+91 9861718600</h5>
                     </div>
                 </div>
             </div>
@@ -60,15 +60,14 @@
                     </div>
                     <div class="ms-4">
                         <p class="mb-2">Mail Us Now</p>
-                        <h5 class="mb-0">info@example.com</h5>
+                        <h5 class="mb-0">info@daips.org</h5>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <div class="bg-light rounded p-5">
                     <p class="d-inline-block border rounded-pill py-1 px-4">Contact Us</p>
-                    <h1 class="mb-4">Have Any Query? Please Contact Us!</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <h1 class="mb-4">For Any Query Contact Us</h1>
                     <form action="process.php" method="post">
                         <div class="row g-3">
                             <div class="col-md-6">
@@ -105,8 +104,7 @@
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <div class="h-100" style="min-height: 400px;">
                     <iframe class="rounded w-100 h-100"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                    frameborder="0" allowfullscreen="" aria-hidden="false"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.106342575854!2d84.9254775863741!3d22.273961191536607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201d11bbdff53f%3A0xf31e7f09782ac1e1!2sDr.%20Ambedkar%20Institute%20of%20Pharmaceutical%20Science!5e0!3m2!1sen!2sin!4v1707910358663!5m2!1sen!2sin" frameborder="0" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
                 </div>
             </div>
