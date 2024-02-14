@@ -94,7 +94,7 @@
                         <!-- Gallery items (repeated for each image) -->
 
                         <div class="col-md-4 grid-item mb-4" data-groups='["dental"]'>
-                            <div class="portfolio-item rounded">
+                            <div class="portfolio-item rounded py-3">
                                 <img src="<?= ASSETS . 'img/gallery/01.jpg'; ?>" style="object-fit: cover;" alt="">
                                 <div class="portfolio-overlay">
                                     <a class="portfolio-description portfolio-img" href="#previewModal1" data-bs-toggle="modal" data-bs-target="#previewModal1">
@@ -108,7 +108,7 @@
                         </div>
 
                         <div class="col-md-4 grid-item mb-4" data-groups='["medicine"]'>
-                            <div class="portfolio-item rounded">
+                            <div class="portfolio-item rounded py-3">
                                 <img src="https://via.placeholder.com/300" alt="Image 2">
                                 <div class="portfolio-overlay">
                                     <a class="portfolio-description portfolio-img" href="#previewModal2" data-bs-toggle="modal" data-bs-target="#previewModal2">
@@ -122,7 +122,7 @@
                         </div>
 
                         <div class="col-md-4 grid-item mb-4" data-groups='["orthopaedics"]'>
-                            <div class="portfolio-item rounded">
+                            <div class="portfolio-item rounded py-3">
                                 <img src="https://via.placeholder.com/300" alt="Image 3">
                                 <div class="portfolio-overlay">
                                     <a class="portfolio-description portfolio-img" href="#previewModal3" data-bs-toggle="modal" data-bs-target="#previewModal3">
