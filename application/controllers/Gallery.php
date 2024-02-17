@@ -37,7 +37,7 @@ class Gallery extends CI_Controller
       if ($this->session->has_userdata('name')) {
          if ($this->input->method() == 'post') {
             $config = array(
-               'upload_path' => "./assets/uploads/",
+               'upload_path' => FCPATH . "assets/img/gallery/"",
                'allowed_types' => "gif|jpg|png|jpeg",
                'encrypt_name' => TRUE
             );
