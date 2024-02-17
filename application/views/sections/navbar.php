@@ -1,7 +1,7 @@
 <!-- Navbar Start -->
-<!-- <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
     <a href="index" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <h1 class="m-0 text-primary"><i class="far fa-hospital me-3"></i>Klinik</h1>
+        <img class="img-fluid" src="<?= ASSETS . 'img/logo.png'; ?>" alt="">
     </a>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -46,14 +46,13 @@
             </div>
             <a href="contact-us" class="nav-item nav-link">Contact</a>
         </div>
-       <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Book Your Spot<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
-</nav> -->
+</nav>
 <!-- Navbar End -->
 
 
 <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+<!-- <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
     <a href="index" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
         <h1 class="m-0 text-primary"><i class="far fa-hospital me-3"></i>Klinik</h1>
     </a>
@@ -100,7 +99,6 @@
             </div>
             <li class="nav-item nav-link"><a href="contact-us">Contact</a></li>
         </div>
-        <!-- <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Book Your Spot<i class="fa fa-arrow-right ms-3"></i></a> -->
     </div>
-</nav>
+</nav> -->
 <!-- Navbar End -->

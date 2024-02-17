@@ -140,7 +140,7 @@
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
-        border-top: 3px solid red;
+        border-top: 3px solid #006838;
         border-bottom: 1px solid rgba(255, 255, 255, 0.20);
         margin-top: 0;
         top: 150%;
@@ -782,4 +782,11 @@
     width: 100%;
     background: rgba(0, 104, 56, 0.1);
     color: #006838;
+}
+
+.navbar-brand img {
+    max-height: 80px; 
+    max-width: 200px;
+    width: auto;
+    height: auto;
 }
