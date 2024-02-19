@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    $(document).ready(function() {
+$(document).ready(function() {
   // Change language every 5 seconds
   setInterval(function() {
     var activeElement = $(".brand-name .active");
@@ -132,7 +132,11 @@ document.addEventListener('DOMContentLoaded', function () {
       nextElement.addClass("active");
     });
   }, 5000);
+
+  // Initially center the active text
+  $(".brand-name").css("justify-content", "center");
 });
+
 
     
 })(jQuery);

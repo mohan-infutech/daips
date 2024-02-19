@@ -842,7 +842,23 @@
 }
 
 .brand-name h1 {
-    font-size: 24px;
+     font-size: 24px;
     margin: 10px 0;
+  opacity: 0;
+  animation: slideUp 2s ease-in-out forwards;
+}
+
+.brand-name h1.active {
+  opacity: 1;
+  animation: none;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
