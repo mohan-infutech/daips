@@ -112,6 +112,28 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+
+
+    $(document).ready(function() {
+  // Change language every 5 seconds
+  setInterval(function() {
+    var activeElement = $(".brand-name .active");
+    var nextElement = activeElement.next();
+
+    // Wrap around to the first element if reaching the end
+    if (!nextElement.length) {
+      nextElement = $(".brand-name h1").first();
+    }
+
+    // Animate slide up and down of elements
+    activeElement.animate({ opacity: 0, transform: "translateY(100px)" }, 500);
+    nextElement.animate({ opacity: 1, transform: "translateY(0)" }, 500, function() {
+      activeElement.removeClass("active");
+      nextElement.addClass("active");
+    });
+  }, 5000);
+});
+
     
 })(jQuery);
 

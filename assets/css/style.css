@@ -791,7 +791,7 @@
     height: auto;
 }
 
-.logo-section {
+/*.logo-section {
     position: absolute;
     z-index: 100;
     width: 100%;
@@ -806,7 +806,7 @@
     grid-gap: 20px;
     align-items: center;
     color: #fff;
-    
+
 }
 
 .logo-section .logo-row .item-text {
@@ -830,4 +830,19 @@
     top: -35px;
     -webkit-animation: textLogoAnimate1 12s ease-in-out infinite;
     animation: textLogoAnimate1 12s ease-in-out infinite;
+}*/
+
+.logo-section {
+            text-align: center;
+        }
+
+.logo-section img {
+    width: 180px;
+    height: 180px;
 }
+
+.brand-name h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
