@@ -1,13 +1,11 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
-    <a href="index" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <img class="img-fluid" src="<?= ASSETS . 'img/logo.png'; ?>" alt="">
-    </a>
+    
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0">
+        <div class="navbar-nav m-auto p-4 p-lg-0 d-flex justify-content-center">
             <a href="web" class="nav-item nav-link active">Home</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>

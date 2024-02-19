@@ -7,6 +7,8 @@
 
         <?php $this->load->view('sections/topbar'); ?>
 
+        <?php $this->load->view('sections/logo'); ?>
+
 
         <!-- Navbar Start -->
 
