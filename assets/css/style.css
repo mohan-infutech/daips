@@ -848,6 +848,14 @@
   animation: slideUp 2s ease-in-out forwards;
 }
 
+.active {
+      display: block;
+    }
+
+    .inactive {
+      display: none;
+    }
+
 .brand-name h1.active {
   opacity: 1;
   animation: none;
