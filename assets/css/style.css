@@ -870,3 +870,20 @@
   }
 }
 
+.categories {
+    padding: 30px;
+    background-color: #2951a4;
+    margin-bottom: 30px;
+}
+
+.categories h3 {
+    color: #006838;
+}
+
+.card-header {
+    color : #006838;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
