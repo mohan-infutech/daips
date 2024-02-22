@@ -3,6 +3,11 @@
 class Gallery_model extends CI_Model
 {
 
+   public function count()
+   {
+      return $this->db->count_all('gallery');
+   }
+
    public function all()
    {
       $query = $this->db->get('gallery'); 

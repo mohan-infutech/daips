@@ -5,6 +5,8 @@ class Web extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+	    $this->load->model('Gallery_model', 'gm');
+
 	}
 
 	public function index($value='')
@@ -34,7 +36,38 @@ class Web extends CI_Controller {
 
 	public function gallery($value='')
 	{
-		$this->load->view('gallery');
+		$page_num = $this->uri->segment(2);
+		$pgc['base_url'] = base_url('gallery');
+		$pgc['total_rows'] = $this->gm->count();
+		$pgc['per_page'] = 1;
+		$pgc['use_page_numbers'] = TRUE;
+		$pgc['full_tag_open'] = '<ul class="pagination">';
+		$pgc['full_tag_close'] = '</ul>';
+		$pgc['first_link'] = '&laquo;';
+		$pgc['first_tag_open'] = '<li class="page-item">';
+		$pgc['first_tag_close'] = '</li>';
+		$pgc['last_link'] = '&raquo;';
+		$pgc['last_tag_open'] = '<li class="page-item">';
+		$pgc['last_tag_close'] = '</li>';
+		$pgc['next_link'] = '&gt;';
+		$pgc['next_tag_open'] = '<li class="page-item">';
+		$pgc['next_tag_close'] = '</li>';
+		$pgc['prev_link'] = '&lt;';
+		$pgc['prev_tag_open'] = '<li class="page-item">';
+		$pgc['prev_tag_close'] = '</li>';
+		$pgc['cur_tag_open'] = '<li class="page-item active"><span class="page-link">';
+		$pgc['cur_tag_close'] = '<span class="sr-only">(current)</span></span></li>';
+		$pgc['num_tag_open'] = '<li class="page-item">';
+		$pgc['num_tag_close'] = '</li>';
+		$pgc['attributes'] = array('class' => 'page-link');
+
+		$this->pagination->initialize($pgc);
+
+		$data['gallery'] = TRUE;
+		$data['page'] = 'Gallery';
+		$data['pictures'] = $this->gm->all();
+		$data['pages'] = $this->pagination->create_links();
+		$this->load->view('gallery', $data);
 	}
 
 	public function contact($value='')

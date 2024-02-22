@@ -849,12 +849,12 @@
 }
 
 .active {
-      display: block;
-    }
+  display: inline-block;
+}
 
-    .inactive {
-      display: none;
-    }
+.inactive {
+  display: none;
+}
 
 .brand-name h1.active {
   opacity: 1;

@@ -12,9 +12,20 @@ class Gallery extends CI_Controller
    public function index()
    {
       if ($this->session->has_userdata('name')) {
+
+         //pagination code
+
+         $pgc['base_url'] = base_url('gallery');
+         $pgc['total_rows'] = $this->gm->count();
+         $pgc['per_page'] = 1;
+
+         $this->pagination->initialize($pgc);
+
+
          $data['gallery'] = TRUE;
          $data['page'] = 'Gallery';
          $data['pictures'] = $this->gm->all();
+         $data['pages'] = $this->pagination->create_links();
          $this->load->view('gallery', $data);
       } else {
          redirect('logout');

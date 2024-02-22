@@ -36,7 +36,7 @@ class Gallery extends CI_Controller {
 		if($this->session->has_userdata('name')){
 			if($this->input->method() == 'post'){
 				$config = array(
-					'upload_path' => FCPATH . "assets/img/gallery/",
+					'upload_path' => FCPATH . "assets/uploads/",
 					'allowed_types' => "gif|jpg|png|jpeg",
 					'encrypt_name' => TRUE
 				);
@@ -44,7 +44,8 @@ class Gallery extends CI_Controller {
 				if($this->upload->do_upload('file')){
 					$dbdata = [
 						'name' => $this->input->post('name'), 
-						'date' => date('Y-m-d', strtotime($this->input->post('date'))), 
+						// 'date' => date('Y-m-d', strtotime($this->input->post('date'))), 
+						'type' => $this->input->post('type'),
 						'file' => $this->upload->data('file_name'),
 						'created_on' => date('Y-m-d h:i:s') 
 					];

@@ -70,8 +70,14 @@
                                             <input type="text" name="name" class="form-control" placeholder="Enter picture name" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>Picture Date</label>
-                                            <input type="text" name="date" class="form-control datepicker">
+                                            <label>Picture Type</label>
+                                            <!-- <input type="text" name="date" class="form-control datepicker"> -->
+                                            <select name="type" class="form-control">
+                                                <option value="Others">Others</option>
+                                                <option value="Infrastructure">Infrastructure</option>
+                                                <option value="Events">Events</option>
+                                                <option value="Faculties">Faculties</option>
+                                            </select>
                                         </div>
                                         <div class="input-group">
                                             <div class="custom-file">
