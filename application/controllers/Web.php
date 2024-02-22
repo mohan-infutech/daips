@@ -36,12 +36,12 @@ class Web extends CI_Controller {
 
 	public function gallery($value='')
 	{
-		$page_num = $this->uri->segment(2);
+		$page_num = ($this->uri->segment(2) == 0) ? 1 : $this->uri->segment(2);
 		$pgc['base_url'] = base_url('gallery');
 		$pgc['total_rows'] = $this->gm->count();
-		$pgc['per_page'] = 1;
+		$pgc['per_page'] = 2;
 		$pgc['use_page_numbers'] = TRUE;
-		$pgc['full_tag_open'] = '<ul class="pagination">';
+		$pgc['full_tag_open'] = '<ul class="pagination justify-content-center">';
 		$pgc['full_tag_close'] = '</ul>';
 		$pgc['first_link'] = '&laquo;';
 		$pgc['first_tag_open'] = '<li class="page-item">';
@@ -65,7 +65,7 @@ class Web extends CI_Controller {
 
 		$data['gallery'] = TRUE;
 		$data['page'] = 'Gallery';
-		$data['pictures'] = $this->gm->all();
+		$data['pictures'] = $this->gm->fetch($pgc['per_page'], $page_num);
 		$data['pages'] = $this->pagination->create_links();
 		$this->load->view('gallery', $data);
 	}

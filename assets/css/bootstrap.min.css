@@ -5149,8 +5149,8 @@ fieldset:disabled .btn {
 .page-link {
 	position: relative;
 	display: block;
-	color: #0463FA;
-	background-color: #fff;
+	color: #006838;
+	background-color: var(--bs-light);
 	border: 1px solid #dee2e6;
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
 }
@@ -5164,8 +5164,8 @@ fieldset:disabled .btn {
 .page-link:hover {
 	z-index: 2;
 	color: #034fc8;
-	background-color: #e9ecef;
-	border-color: #dee2e6
+	background-color: #EFF5FF;
+	border-color: none;
 }
 
 .page-link:focus {
@@ -5183,8 +5183,7 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
 	z-index: 3;
 	color: #fff;
-	background-color: #0463FA;
-	border-color: #0463FA
+	background-color: #006838;
 }
 
 .page-item.disabled .page-link {

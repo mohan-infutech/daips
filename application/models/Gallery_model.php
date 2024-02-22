@@ -14,19 +14,29 @@ class Gallery_model extends CI_Model
       return $query->result();
    }
 
-   public function new($data)
+   public function new($data=[])
    {
       return $this->db->insert('gallery', $data); 
    }
 
-   public function get($id)
+   public function get($id='')
    {
       $query = $this->db->get_where('gallery', array('id' => $id)); 
       return $query->row();
    }
 
-   public function delete($id)
+   public function delete($id='')
    {
       return $this->db->delete('gallery', array('id' => $id)); 
+   }
+
+   public function fetch($limit=9, $page=1)
+   {
+      $offset = ($page - 1) * $limit;
+      $this->db->limit($limit, $offset);
+      $this->db->from('gallery');
+      $q = $this->db->get();
+      return $q->result();
+
    }
 }
