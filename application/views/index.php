@@ -83,7 +83,9 @@
                             <button class="btn btn-primary rounded py-3 px-5 mt-3" type="submit">Know More</button>
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp bg-light rounded h-100 d-flex align-items-center p-2 card border-0" data-wow-delay="0.5s">
+                    <div class="col-lg-2">
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp bg-light rounded h-100 d-flex align-items-center p-2 card border-0" data-wow-delay="0.5s">
                       <div class="card-header w-100">
                         News & Events
                       </div>
