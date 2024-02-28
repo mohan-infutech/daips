@@ -60,7 +60,7 @@
                     </div>
                     <div class="ms-4">
                         <p class="mb-2">Mail Us Now</p>
-                        <h5 class="mb-0">info@daips.org</h5>
+                        <h5 class="mb-0"><a href="mailto:skimtiaz86@gmail.com">contact@imtiaz.org</a></h5>
                     </div>
                 </div>
             </div>
@@ -68,29 +68,29 @@
                 <div class="bg-light rounded p-5">
                     <p class="d-inline-block border rounded-pill py-1 px-4">Contact Us</p>
                     <h1 class="mb-4">For Any Query Contact Us</h1>
-                    <form action="process.php" method="post">
+                    <form method="post" action="" autocomplete="off">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                    <input type="email" class="form-control" id="email" name="email" mailto:skimtiaz86@gmail.com  placeholder="Your Email" >
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
                                     <label for="subject">Subject</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Leave a message here" style="height: 100px" required></textarea>
+                                    <textarea class="form-control" id="message" name="message" placeholder="Leave a message here" style="height: 100px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
