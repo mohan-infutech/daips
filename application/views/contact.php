@@ -68,35 +68,43 @@
                 <div class="bg-light rounded p-5">
                     <p class="d-inline-block border rounded-pill py-1 px-4">Contact Us</p>
                     <h1 class="mb-4">For Any Query Contact Us</h1>
+                    <!-- Display the status message -->
+                    <?php if(!empty($status)){ ?>
+                    <div class="status <?php echo $status['type']; ?>"><?php echo $status['msg']; ?></div>
+                    <?php } ?>
                     <form method="post" action="" autocomplete="off">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>">
                                     <label for="name">Your Name</label>
+                                    <?php echo form_error('name','<p class="field-error">','</p>'); ?>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" name="email" mailto:skimtiaz86@gmail.com  placeholder="Your Email" >
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>">
                                     <label for="email">Your Email</label>
+                                     <?php echo form_error('email','<p class="field-error">','</p>'); ?>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>">
                                     <label for="subject">Subject</label>
+                                     <?php echo form_error('subject','<p class="field-error">','</p>'); ?>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Leave a message here" style="height: 100px"></textarea>
+                                    <textarea class="form-control" id="message" name="message" placeholder="Leave a message here" style="height: 100px" <?php echo !empty($postData['message'])?$postData['message']:''; ?>></textarea>
                                     <label for="message">Message</label>
+                                    <?php echo form_error('message','<p class="field-error">','</p>'); ?>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                            </div>
+                        </div>
+                        <div class="col-12 mt-5">
+                            <button class="btn btn-primary w-100 py-3" type="submit" value="submit" name="contactSubmit">Send Message</button>
                         </div>
                     </form>
                 </div>
